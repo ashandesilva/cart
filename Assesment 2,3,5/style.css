@@ -1,0 +1,122 @@
+a:focus {
+    outline: 0 solid;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.product-thumb {
+    float: left;
+    height: 90px;
+    margin-right: 15px;
+    width: 100px;
+}
+a {
+    color: #5a88ca;
+}
+a:focus,
+a:hover {
+    color: #17a78b;
+}
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+button[type="submit"],
+input[type="submit"] {
+    background: none repeat scroll 0 0 #5a88ca;
+    border: medium none;
+    color: #fff;
+    padding: 11px 20px;
+    text-transform: uppercase;
+}
+button[type="submit"]:hover,
+input[type="submit"]:hover {
+    background-color: #222;
+}
+.productName {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.quantity {
+    float: left;
+    margin-right: 15px;
+}
+.quantity input[type="number"] {
+    border: 1px solid #5a88ca;
+    padding: 5px;
+    width: 50px;
+}
+form.cart {
+    margin-bottom: 25px;
+}
+table.shopTable {
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    margin-bottom: 50px;
+    width: 100%;
+}
+table.shopTable td,
+table.shopTable th {
+    border-left: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+}
+table.shopTable th {
+    background: none repeat scroll 0 0 #f4f4f4;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+td.productImg img {
+    height: auto;
+    width: 70px;
+}
+td.productName {
+    font-size: 18px;
+}
+td.productQuantity div.quantity {
+    float: none;
+    margin: 0;
+}
+.col-1,
+.col-2 {
+    float: left;
+    margin-left: 30px;
+    width: 360px;
+}
+table.shopTable td.productName a {
+    color: #222;
+}
+table.shopTable td.productName a:hover {
+    color: #5a88ca;
+    text-decoration: none;
+}
+.singleProduct {
+    margin-bottom: 31px;
+    overflow: hidden;
+}
+.singleProduct h2 {
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+.singleProduct h2 a {
+    color: #222;
+}
+.singleProduct h2 a:hover {
+    color: #5a88ca;
+}
+.price {
+    margin-bottom: 25px;
+}
+.price > ins {
+    color: #5a88ca;
+    font-weight: 700;
+    margin-right: 10px;
+    text-decoration: none;
+}
